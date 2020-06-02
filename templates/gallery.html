@@ -17,14 +17,14 @@
   <button type="button" name="uploadGambar2" id="uploadGambar2" class="btn btn-primary"><i class="fa fa-paper-plane" aria-hidden="true"></i> Upload Gambar</button>
   <p name="hasil" id="hasil" style="color: red; font-weight: bold; margin-top: 10px;"></p>
   <button type="button" name="uploadGambar" id="uploadGambar" class="btn btn-primary"><i class="fa fa-paper-plane" aria-hidden="true"></i> Upload Gambar</button>
-  <center><p><b>Created By:<br>Aryo Dewandaru (NIM 17.01.53.0041)<br>Blidex (NIM 17.01.53.0062)<br>Rahartyan Wisnu Herlambang (NIM 17.01.53.0049)</b></p></center>
+  <center><p><b>Created By:<br>Fauzan Meganuari (17.01.53.0046)</b></p></center>
 </div>
 <script>
 $(document).ready(function(){
 $.ajax({
         type:'GET',
         crossDomain: true,
-        url: "https://shaniii.pythonanywhere.com/api/image_client_get",
+        url: "https://fauzanm.pythonanywhere.com/api/image_client_get",
         data:{},
         'contentType': 'application/x-www-form-urlencoded',
         error:function(xhr, ajaxOptions, thrownError){
@@ -53,11 +53,11 @@ $.ajax({
         });
 
 $('#uploadGambar').click(function(){
-window.location.href = 'https://shaniii.pythonanywhere.com/upload_gambar';
+window.location.href = 'https://fauzanm.pythonanywhere.com/upload_gambar';
 });
 
 $('#uploadGambar2').click(function(){
-window.location.href = 'https://shaniii.pythonanywhere.com/upload_gambar';
+window.location.href = 'https://fauzanm.pythonanywhere.com/upload_gambar';
 });
 });
 </script>

@@ -24,7 +24,7 @@ app.config['JSON_ADD_STATUS'] = True
 app.config['JSON_STATUS_FIELD_NAME'] = ''
 
 ALLOWED_EXTENSIONS = {'JPG', 'PNG', 'JPEG', 'GIF', 'jpg', 'png', 'jpeg', 'gif'}
-baseUrl = 'https://shaniii.pythonanywhere.com/'
+baseUrl = 'https://fauzanm.pythonanywhere.com/'
 
 @app.errorhandler(405)
 def mna(e):

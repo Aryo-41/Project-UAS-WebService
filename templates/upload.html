@@ -26,7 +26,7 @@ $('#spinnernya').hide();
   </form>
   <div class="spinner-border" name="spinnernya" id="spinnernya" style="margin-top: 20px;"></div>
   <p name="hasil" id="hasil" style="color: red; font-weight: bold; margin-top: 10px;"></p>
-  <center><p><b>Created By:<br>Aryo Dewandaru (NIM 17.01.53.0041)<br>Blidex (NIM 17.01.53.0062)<br>Rahartyan Wisnu Herlambang (NIM 17.01.53.0049)</b></p></center>
+  <center><p><b>Created By:<br>Fauzan Meganuari (17.01.53.0046)</b></p></center>
 </div>
 <script>
 $(document).ready(function(){
@@ -39,7 +39,7 @@ $.ajax({
         crossDomain: true,
         processData: false,
         contentType: false,
-        url: "https://shaniii.pythonanywhere.com/api/image_upload",
+        url: "https://fauzanm.pythonanywhere.com/api/image_upload",
         data:form_data,
         error:function(xhr, ajaxOptions, thrownError){
         //alert("Terjadi kesalahan saat mengunggah gambar. Silakan coba lagi!");
@@ -72,7 +72,7 @@ $.ajax({
 });
 
 $('#lihatGallery').click(function(){
-window.location.href = 'https://shaniii.pythonanywhere.com/gallery';
+window.location.href = 'https://fauzanm.pythonanywhere.com/gallery';
 });
 });
 </script>
